@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	int n;
+	int c;
 
-	for (n = '0'; n = '9'; n++)
+	for (c = '0'; c = '9'; c++)
 	{
-		putchar (n);
+		putchar (c);
 
-		if (n != '9')
+		if (c != '9')
 		{
 		
 			putchar (',');
-			putchar (',');
+			putchar ('');
 		}
 		
 	}
