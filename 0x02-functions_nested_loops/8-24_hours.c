@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*jack_bauer - func that every minutes of the day of Jack Bauer,starting 
- from 0:00 to 23:59, min loop counts mins, while hour loops counts hours
- and reset mins
+* Jack_bauer - function that every minutes of the day of Jack Bauer,starting 
+* from 0:00 to 23:59, min loop counts mins, while hour loops counts hours
+* and reset mins
 * Return: 0
 */
 void jack_bauer(void)
