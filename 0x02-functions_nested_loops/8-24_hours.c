@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-* jack _bauer - func that every minutes of the day of Jack Bauer,starting from 0:00 to 23:59, min loop counts* whle hours loops counts
-* Return:0
+* jack _bauer - func that every minutes of the day of Jack Bauer,starting from 0:00 to 23:59, min loop counts* Return:0
 */
 void jack_bauer(void)
 {
@@ -14,9 +13,9 @@ void jack_bauer(void)
 	{
 	while (minutes <= 59)
 	{
-	mins_remainder =minutes % 10;
+	mins_remainder = minutes % 10;
 	hours_remainder = hours % 10;
-	_putchar(hours /10 + '0');
+	_putchar(hours / 10 + '0');
 	_putchar(hours_remainder + '0');
 	_putchar(':');
 	_putchar(minutes / 10 + '0');
